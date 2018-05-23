@@ -6,5 +6,7 @@ function getTriangleArea(a,h){
 	}
 }
 
-console.log(getTriangleArea(prompt('Wpisz a'),prompt('Wpisz h')));
+console.log(
+	getTriangleArea(prompt('Wpisz a'),prompt('Wpisz h'))
+	);
 
