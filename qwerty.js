@@ -1,12 +1,5 @@
-function getTriangleArea(a,h){
-	if((a>0) && (h>0)){
-		return a * h / 2;
-	}else{
-		alert('Nieprawidłowe dane');
-	}
+var buttons = document.getElementsByClassName('button');
+
+for(var i = 0;i<buttons.length;i++){
+	console.log(buttons[i].innerHTML);
 }
-
-console.log(
-	getTriangleArea(prompt('Wpisz a'),prompt('Wpisz h'))
-	);
-
