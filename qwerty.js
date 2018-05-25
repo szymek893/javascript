@@ -1,5 +1,8 @@
-var buttons = document.getElementsByClassName('button');
+var list = document.getElementById('list');
+var add = document.getElementById('addElem');
 
-for(var i = 0;i<buttons.length;i++){
-	console.log(buttons[i].innerHTML);
-}
+add.addEventListener('click', function() {
+	var element = document.createElement('li');
+	element.innerHTML = 'item' + document.getElementsByTagName('li').length + 1;
+	list.appendChild(element);
+});
