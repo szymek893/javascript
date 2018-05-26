@@ -1,34 +1,21 @@
-.czlowiek{
-	color: white;
-	font-size: 20px;
-	border: 3px orange solid ; 
-	border-radius: 25px;
-	background-color: green;
-	margin: 20px auto;
-	text-align: center;
-	font-style: italic;
-	width: 50%;
-}
-
-.komputer{
-	background-color: pink;
-	border: 3px red solid;
-	margin-right:500px;
-	border-radius: 25px;
+.scoreboard{
 	font-size: 20px;
 	text-align: center;
-	font-style: italic;
-	margin: 5px auto;
-	width: 50%;
+	padding: 20px;
 }
 
 #pkthuman{
-	border: 1px orange solid;
-	background-color: orange;
+	transition: font-size 2s;
+}
+
+#pkthuman:hover{
+	font-size: 24px;
 }
 
 #pktcomputer{
-	border: 1px red solid;
-	background-color: red;
+	transition: font-size 2s;
 }
 
+#pktcomputer:hover{
+	font-size: 24px;
+}
