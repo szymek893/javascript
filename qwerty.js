@@ -55,6 +55,7 @@ var playerPointsElem = document.getElementById('js-playerPoints'),
     playerNameElem.innerHTML = player.name;
      setGamePoints(); 
   }
+}
 
 function playerPick(playerPick) {
     console.log(playerPick);
@@ -98,7 +99,7 @@ function checkRoundWinner(playerPick, computerPick) {
         computerResultElem.innerHTML = "Win!";
         computer.score++;
     }
-
+    checkIfWon();
 }
 
 function playerPick(playerPick) {
@@ -116,5 +117,17 @@ function setGamePoints() {
 }
 
 
-
+function checkIfWon(){
+	var humanpkt = document.getElementById('pkthuman');
+	var computerpkt = document.getElementById('pktcomputer');
+	humanpkt.innerHTML = player.score;
+	computerpkt.innerHTML = computer.score;
+	if(player.score == 10){
+		alert("Wygrałeś");
+		newGame()
+	}else if (computer.score == 10){
+		alert("przegrałeś");
+		newGame();
+	}
+}
 
