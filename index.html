@@ -46,21 +46,15 @@
       <div id="js-resultsTableElement" class="container">
          <div class="row">
             <div class="col-xs-5 text-center">
-               <span id="js-playerPoints" class="badge">
-               0
-               </span>
                <span id="js-playerName">
-               Imię gracza:
+               <b>Imię gracza:</b>
                </span>
             </div>
             <div class="col-xs-2 text-center">
                VS.
             </div>
             <div class="col-xs-5 text-center">
-               <span id="js-computerPoints" class="badge">
-               0
-               </span>
-               Komputer
+               <b>Komputer</b>
             </div>
          </div>
          <div class="row">
@@ -89,11 +83,19 @@
                </span>
             </div>
          </div>
-      </div>
-      <div class='scoreboard'>
-         <p class='label label-default'>Punkty gracza: <span id='pkthuman'></span></p>
-         <br><br>
-         <p class='label label-default'>Punkty komputera: <span id='pktcomputer'></span></p>
+         <div class="row">
+            <div class="col-xs-5 text-center">
+               <span id="js-playerResult">
+               <p class='label label-default'>Punkty gracza: <span id='pkthuman'></span></p>
+               </span>
+            </div>
+            <div class="col-xs-2"></div>
+            <div class="col-xs-5 text-center">
+               <span id="js-computerResult">
+               <p class='label label-default'>Punkty komputera: <span id='pktcomputer'></span></p>
+               </span>
+            </div>
+         </div>
       </div>
    </body>
    <script type="text/javascript" src="qwerty.js"></script>
