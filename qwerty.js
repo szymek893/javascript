@@ -86,7 +86,7 @@ function playerPick(playerPick) {
 }
 
 function checkRoundWinner(playerPick, computerPick) {
-    playerResultElem.innerHTML = computerResultElem.innerHTML = '';
+    playerResultElem.innerHTML = computerResultElem.innerHTML = ' ';
 
     var winnerIs = 'player';
 
