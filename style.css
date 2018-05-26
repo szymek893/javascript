@@ -4,9 +4,10 @@
 	border: 3px orange solid ; 
 	border-radius: 25px;
 	background-color: green;
-	margin-right:500px;
+	margin: 20px auto;
 	text-align: center;
 	font-style: italic;
+	width: 50%;
 }
 
 .komputer{
@@ -17,14 +18,17 @@
 	font-size: 20px;
 	text-align: center;
 	font-style: italic;
+	margin: 5px auto;
+	width: 50%;
 }
 
 #pkthuman{
 	border: 1px orange solid;
-
+	background-color: orange;
 }
 
 #pktcomputer{
 	border: 1px red solid;
+	background-color: red;
 }
 
